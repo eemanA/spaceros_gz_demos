@@ -1,0 +1,21 @@
+[0.529s] Invoking command in '/home/srge/spaceros_gz_demos/src/multi_robot_nav': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_nav build --build-base /home/srge/spaceros_gz_demos/build/multi_robot_nav/build install --record /home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log --single-version-externally-managed install_data
+[0.718s] running egg_info
+[0.719s] writing ../../build/multi_robot_nav/multi_robot_nav.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../../build/multi_robot_nav/multi_robot_nav.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../../build/multi_robot_nav/multi_robot_nav.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../build/multi_robot_nav/multi_robot_nav.egg-info/requires.txt
+[0.719s] writing top-level names to ../../build/multi_robot_nav/multi_robot_nav.egg-info/top_level.txt
+[0.720s] reading manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+[0.721s] writing manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+[0.721s] running build
+[0.721s] running build_py
+[0.721s] running install
+[0.721s] running install_lib
+[0.722s] running install_data
+[0.722s] running install_egg_info
+[0.723s] removing '/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav-0.0.1-py3.10.egg-info' (and everything under it)
+[0.724s] Copying ../../build/multi_robot_nav/multi_robot_nav.egg-info to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav-0.0.1-py3.10.egg-info
+[0.725s] running install_scripts
+[0.739s] Installing move_to_goal script to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/multi_robot_nav
+[0.740s] writing list of installed files to '/home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log'
+[0.763s] Invoked command in '/home/srge/spaceros_gz_demos/src/multi_robot_nav' returned '0': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_nav build --build-base /home/srge/spaceros_gz_demos/build/multi_robot_nav/build install --record /home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log --single-version-externally-managed install_data

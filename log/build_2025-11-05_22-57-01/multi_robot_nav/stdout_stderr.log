@@ -1,0 +1,27 @@
+running develop
+Removing /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi-robot-nav.egg-link (link to .)
+running egg_info
+writing ../../build/multi_robot_nav/multi_robot_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/multi_robot_nav/multi_robot_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/multi_robot_nav/multi_robot_nav.egg-info/entry_points.txt
+writing requirements to ../../build/multi_robot_nav/multi_robot_nav.egg-info/requires.txt
+writing top-level names to ../../build/multi_robot_nav/multi_robot_nav.egg-info/top_level.txt
+reading manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav
+copying /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav/move_to_goal.py -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav
+copying /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav/__init__.py -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav
+byte-compiling /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav/move_to_goal.py to move_to_goal.cpython-310.pyc
+byte-compiling /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/multi_robot_nav -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav
+running install_egg_info
+Copying ../../build/multi_robot_nav/multi_robot_nav.egg-info to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav-0.0.1-py3.10.egg-info
+running install_scripts
+Installing move_to_goal script to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/multi_robot_nav
+writing list of installed files to '/home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log'

@@ -1,31 +1,39 @@
-FROM osrf/space-ros:latest
+FROM ros:humble
 
-# https://gazebosim.org/docs/harmonic/install_ubuntu/#binary-installation-on-ubuntu
-RUN sudo apt-get update
-RUN sudo apt-get install lsb-release gnupg
-RUN sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
-RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
-RUN sudo apt-get update
-RUN yes | sudo apt-get install gz-harmonic
+USER root
 
-RUN sudo apt-get update \
-    && sudo apt-get install -y --no-install-recommends \
-        bash \
-        bash-completion \
-        build-essential \
-        cmake \
-        git \
-        python-is-python3 \
-        python3-pip \
-        ripgrep \
-        ros-humble-rviz2 \
-        ros-humble-ros-gzharmonic \
-    && sudo apt-get autoremove -y 
+RUN apt-get update && apt-get install -y lsb-release gnupg curl
 
-    # Replace old entrypoint with current entrypoint that extends upon it
-RUN sudo mv /ros_entrypoint.sh /old_entrypoint.sh
+RUN curl -sSL https://packages.osrfoundation.org/gazebo.gpg | tee /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg > /dev/null
+RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/gazebo-stable.list
+
+RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | tee /usr/share/keyrings/ros-archive-keyring.gpg > /dev/null
+RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/ros2.list
+
+RUN apt-get update
+
+RUN apt-get install -y --no-install-recommends \
+    gz-harmonic \
+    ros-humble-rviz2 \
+    ros-humble-ros-gzharmonic \
+    bash \
+    bash-completion \
+    build-essential \
+    cmake \
+    git \
+    python-is-python3 \
+    python3-pip \
+    ripgrep
+
+RUN apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN mv /ros_entrypoint.sh /old_entrypoint.sh
 COPY entrypoint.sh /ros_entrypoint.sh
-RUN sudo chmod +x /ros_entrypoint.sh
+RUN chmod +x /ros_entrypoint.sh
 
 RUN mkdir -p /home/spaceros-user/spaceros/ws/src/spaceros_gz_demos
+
 WORKDIR /home/spaceros-user/spaceros/ws
+
+USER spaceros-user
+

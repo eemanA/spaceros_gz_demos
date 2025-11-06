@@ -7,7 +7,7 @@ This package was made by David Dorf and Katie Hughes for the NASA Space ROS Sim 
 
 https://github.com/user-attachments/assets/b5a11627-e0f3-451b-af0c-b0e76b30fb04
 
-
+X2_a changes were made by eeman
 
 ## Docker setup
 

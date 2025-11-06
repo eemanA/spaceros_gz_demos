@@ -1,0 +1,1 @@
+/home/srge/spaceros_gz_demos/build/spaceros_gz_demos/ament_cmake_environment_hooks/local_setup.zsh

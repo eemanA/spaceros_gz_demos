@@ -1,0 +1,3 @@
+[console_scripts]
+move_to_goal = multi_robot_nav.move_to_goal:main
+

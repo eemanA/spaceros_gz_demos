@@ -1,0 +1,212 @@
+[0.196s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.196s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72d32b11c400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72d32b2657e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72d32b2657e0>>)
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.506s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/srge/spaceros_gz_demos'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/build) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/build) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/build) ignored
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/install) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/install) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/install) ignored
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(docker/log) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docker/log) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docker/log) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(spaceros_gz_demos) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'spaceros_gz_demos' with type 'ros.ament_cmake' and name 'spaceros_gz_demos'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_nav) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_robot_nav' with type 'ros.ament_python' and name 'multi_robot_nav'
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.603s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/srge/spaceros_gz_demos/install
+[0.608s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 457 installed packages in /opt/ros/humble
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'cmake_target' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.713s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srge/spaceros_gz_demos/build/multi_robot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srge/spaceros_gz_demos/install/multi_robot_nav', 'merge_install': False, 'path': '/home/srge/spaceros_gz_demos/src/multi_robot_nav', 'symlink_install': False, 'test_result_base': None}
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'cmake_args' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'cmake_target' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'spaceros_gz_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.714s] DEBUG:colcon.colcon_core.verb:Building package 'spaceros_gz_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos', 'merge_install': False, 'path': '/home/srge/spaceros_gz_demos/spaceros_gz_demos', 'symlink_install': False, 'test_result_base': None}
+[0.714s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.716s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/srge/spaceros_gz_demos/src/multi_robot_nav' with build type 'ament_python'
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_nav', 'ament_prefix_path')
+[0.723s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/hook/ament_prefix_path.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/hook/ament_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/hook/ament_prefix_path.sh'
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srge/spaceros_gz_demos/spaceros_gz_demos' with build type 'ament_cmake'
+[0.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srge/spaceros_gz_demos/spaceros_gz_demos'
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.226s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/srge/spaceros_gz_demos/src/multi_robot_nav'
+[1.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --build /home/srge/spaceros_gz_demos/build/spaceros_gz_demos -- -j16 -l16
+[1.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --build /home/srge/spaceros_gz_demos/build/spaceros_gz_demos -- -j16 -l16
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --install /home/srge/spaceros_gz_demos/build/spaceros_gz_demos
+[1.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spaceros_gz_demos)
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos' for CMake module files
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos' for CMake config files
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --install /home/srge/spaceros_gz_demos/build/spaceros_gz_demos
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('spaceros_gz_demos', 'cmake_prefix_path')
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/hook/cmake_prefix_path.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/hook/cmake_prefix_path.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/hook/cmake_prefix_path.sh'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/bin'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/lib/pkgconfig/spaceros_gz_demos.pc'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/lib/python3.10/site-packages'
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/bin'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.dsv'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.sh'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.bash'
+[1.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.zsh'
+[1.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/colcon-core/packages/spaceros_gz_demos)
+[1.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spaceros_gz_demos)
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos' for CMake module files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos' for CMake config files
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('spaceros_gz_demos', 'cmake_prefix_path')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/hook/cmake_prefix_path.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/hook/cmake_prefix_path.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/lib/pkgconfig/spaceros_gz_demos.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/lib/python3.10/site-packages'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/bin'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.ps1'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.bash'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.zsh'
+[1.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/colcon-core/packages/spaceros_gz_demos)
+[1.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srge/spaceros_gz_demos/src/multi_robot_nav': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_nav build --build-base /home/srge/spaceros_gz_demos/build/multi_robot_nav/build install --record /home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log --single-version-externally-managed install_data
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav' for CMake module files
+[2.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srge/spaceros_gz_demos/src/multi_robot_nav' returned '0': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_nav build --build-base /home/srge/spaceros_gz_demos/build/multi_robot_nav/build install --record /home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log --single-version-externally-managed install_data
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav' for CMake config files
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav/bin'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/pkgconfig/multi_robot_nav.pc'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages'
+[2.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_nav', 'pythonpath')
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/hook/pythonpath.ps1'
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/hook/pythonpath.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/hook/pythonpath.sh'
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/srge/spaceros_gz_demos/install/multi_robot_nav/bin'
+[2.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_nav)
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/package.ps1'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/package.dsv'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/package.sh'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/package.bash'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav/package.zsh'
+[2.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srge/spaceros_gz_demos/install/multi_robot_nav/share/colcon-core/packages/multi_robot_nav)
+[2.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.469s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.477s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.493s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srge/spaceros_gz_demos/install/local_setup.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srge/spaceros_gz_demos/install/_local_setup_util_ps1.py'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srge/spaceros_gz_demos/install/setup.ps1'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srge/spaceros_gz_demos/install/local_setup.sh'
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srge/spaceros_gz_demos/install/_local_setup_util_sh.py'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srge/spaceros_gz_demos/install/setup.sh'
+[2.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srge/spaceros_gz_demos/install/local_setup.bash'
+[2.505s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srge/spaceros_gz_demos/install/setup.bash'
+[2.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srge/spaceros_gz_demos/install/local_setup.zsh'
+[2.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srge/spaceros_gz_demos/install/setup.zsh'

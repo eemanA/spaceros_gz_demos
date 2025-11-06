@@ -1,0 +1,9 @@
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/uninstall.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/spaceros_gz_demos_uninstall.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/test.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/edit_cache.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/rebuild_cache.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/list_install_components.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/install.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/install/local.dir
+/home/srge/spaceros_gz_demos/spaceros_gz_demos/build/spaceros_gz_demos/CMakeFiles/install/strip.dir

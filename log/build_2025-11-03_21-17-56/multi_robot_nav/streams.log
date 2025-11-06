@@ -1,0 +1,37 @@
+[1.489s] Invoking command in '/home/srge/spaceros_gz_demos/src/multi_robot_nav': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_nav build --build-base /home/srge/spaceros_gz_demos/build/multi_robot_nav/build install --record /home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log --single-version-externally-managed install_data
+[2.026s] running egg_info
+[2.027s] creating ../../build/multi_robot_nav/multi_robot_nav.egg-info
+[2.027s] writing ../../build/multi_robot_nav/multi_robot_nav.egg-info/PKG-INFO
+[2.028s] writing dependency_links to ../../build/multi_robot_nav/multi_robot_nav.egg-info/dependency_links.txt
+[2.028s] writing entry points to ../../build/multi_robot_nav/multi_robot_nav.egg-info/entry_points.txt
+[2.028s] writing requirements to ../../build/multi_robot_nav/multi_robot_nav.egg-info/requires.txt
+[2.028s] writing top-level names to ../../build/multi_robot_nav/multi_robot_nav.egg-info/top_level.txt
+[2.028s] writing manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+[2.030s] reading manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+[2.031s] writing manifest file '../../build/multi_robot_nav/multi_robot_nav.egg-info/SOURCES.txt'
+[2.031s] running build
+[2.031s] running build_py
+[2.031s] creating /home/srge/spaceros_gz_demos/build/multi_robot_nav/build
+[2.031s] creating /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib
+[2.031s] creating /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav
+[2.031s] copying multi_robot_nav/move_to_goal.py -> /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav
+[2.032s] copying multi_robot_nav/__init__.py -> /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav
+[2.032s] running install
+[2.032s] running install_lib
+[2.033s] creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav
+[2.033s] copying /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav/move_to_goal.py -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav
+[2.033s] copying /home/srge/spaceros_gz_demos/build/multi_robot_nav/build/lib/multi_robot_nav/__init__.py -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav
+[2.038s] byte-compiling /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav/move_to_goal.py to move_to_goal.cpython-310.pyc
+[2.041s] byte-compiling /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav/__init__.py to __init__.cpython-310.pyc
+[2.041s] running install_data
+[2.041s] creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index
+[2.042s] creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index/resource_index
+[2.042s] creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index/resource_index/packages
+[2.042s] copying resource/multi_robot_nav -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index/resource_index/packages
+[2.042s] copying package.xml -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav
+[2.042s] running install_egg_info
+[2.044s] Copying ../../build/multi_robot_nav/multi_robot_nav.egg-info to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi_robot_nav-0.0.1-py3.10.egg-info
+[2.045s] running install_scripts
+[2.090s] Installing move_to_goal script to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/multi_robot_nav
+[2.090s] writing list of installed files to '/home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log'
+[2.144s] Invoked command in '/home/srge/spaceros_gz_demos/src/multi_robot_nav' returned '0': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_nav build --build-base /home/srge/spaceros_gz_demos/build/multi_robot_nav/build install --record /home/srge/spaceros_gz_demos/build/multi_robot_nav/install.log --single-version-externally-managed install_data

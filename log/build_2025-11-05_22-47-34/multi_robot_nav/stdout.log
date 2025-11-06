@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing multi_robot_nav.egg-info/PKG-INFO
+writing dependency_links to multi_robot_nav.egg-info/dependency_links.txt
+writing entry points to multi_robot_nav.egg-info/entry_points.txt
+writing requirements to multi_robot_nav.egg-info/requires.txt
+writing top-level names to multi_robot_nav.egg-info/top_level.txt
+reading manifest file 'multi_robot_nav.egg-info/SOURCES.txt'
+writing manifest file 'multi_robot_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi-robot-nav.egg-link (link to .)
+Installing move_to_goal script to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/multi_robot_nav
+
+Installed /home/srge/spaceros_gz_demos/build/multi_robot_nav
+running symlink_data
+symbolically linking /home/srge/spaceros_gz_demos/build/multi_robot_nav/resource/multi_robot_nav -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index/resource_index/packages
+symbolically linking /home/srge/spaceros_gz_demos/build/multi_robot_nav/package.xml -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav

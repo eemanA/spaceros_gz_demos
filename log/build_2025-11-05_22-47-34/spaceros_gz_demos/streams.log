@@ -1,0 +1,237 @@
+[0.545s] Invoking command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake /home/srge/spaceros_gz_demos/spaceros_gz_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srge/spaceros_gz_demos/install/spaceros_gz_demos
+[0.576s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.808s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.835s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.063s] -- Configured cppcheck include dirs: 
+[1.063s] -- Configured cppcheck exclude dirs and/or files: 
+[1.074s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.096s] -- Added test 'lint_cmake' to check CMake code style
+[1.107s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.190s] -- Added test 'uncrustify' to check C / C++ code style
+[1.190s] -- Configured uncrustify additional arguments: 
+[1.201s] -- Added test 'xmllint' to check XML markup files
+[1.204s] -- Configuring done
+[1.209s] -- Generating done
+[1.211s] -- Build files have been written to: /home/srge/spaceros_gz_demos/build/spaceros_gz_demos
+[1.223s] Invoked command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake /home/srge/spaceros_gz_demos/spaceros_gz_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srge/spaceros_gz_demos/install/spaceros_gz_demos
+[1.225s] Invoking command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --build /home/srge/spaceros_gz_demos/build/spaceros_gz_demos -- -j16 -l16
+[1.309s] Invoked command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --build /home/srge/spaceros_gz_demos/build/spaceros_gz_demos -- -j16 -l16
+[1.329s] Invoking command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --install /home/srge/spaceros_gz_demos/build/spaceros_gz_demos
+[1.344s] -- Install configuration: ""
+[1.344s] -- Execute custom install script
+[1.345s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/launch/enceladus.launch.xml
+[1.366s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/launch/load_world.launch.py
+[1.384s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/launch/mars.launch.xml
+[1.404s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/launch/moon.launch NOT FULLY EDITED.xml
+[1.423s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/launch/moon.launch.xml
+[1.441s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/launch/orbit.launch.xml
+[1.464s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/materials/textures/aluminium_anodized.png
+[1.485s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/materials/textures/headlight.jpg
+[1.503s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/materials/textures/led.jpg
+[1.523s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/chassis.dae
+[1.541s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/headlight.dae
+[1.554s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/headlight_lamp.dae
+[1.577s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/led.dae
+[1.594s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/led_lamp.dae
+[1.613s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/top_plate.dae
+[1.635s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/truss.dae
+[1.652s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/meshes/wheel.dae
+[1.675s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/model.config
+[1.693s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X1/model.sdf
+[1.711s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/materials/textures/headlight.jpg
+[1.732s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/materials/textures/led.jpg
+[1.749s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/materials/textures/x2.jpg
+[1.770s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/headlight.dae
+[1.787s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/headlight_lamp.dae
+[1.803s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/led.dae
+[1.823s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/led_lamp.dae
+[1.841s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/x2_chassis.dae
+[1.865s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/x2_wheel_left.dae
+[1.882s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/meshes/x2_wheel_right.dae
+[1.900s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/model.config
+[1.919s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2 ORIGINAL WITHOUT MODIFICATIONS/model.sdf
+[1.933s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/materials/textures/headlight.jpg
+[1.955s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/materials/textures/led.jpg
+[1.973s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/materials/textures/x2.jpg
+[1.990s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/headlight.dae
+[2.010s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/headlight_lamp.dae
+[2.028s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/led.dae
+[2.051s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/led_lamp.dae
+[2.069s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/x2_chassis.dae
+[2.090s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/x2_wheel_left.dae
+[2.110s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/meshes/x2_wheel_right.dae
+[2.131s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/model.config
+[2.148s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2/model.sdf
+[2.169s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/materials/textures/headlight.jpg
+[2.189s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/materials/textures/led.jpg
+[2.212s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/materials/textures/x2.jpg
+[2.230s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/headlight.dae
+[2.252s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/headlight_lamp.dae
+[2.270s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/led.dae
+[2.288s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/led_lamp.dae
+[2.303s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/x2_chassis.dae
+[2.328s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/x2_wheel_left.dae
+[2.346s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/meshes/x2_wheel_right.dae
+[2.369s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/model.config
+[2.392s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/X2_a/model.sdf
+[2.411s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/capsule/model.config
+[2.433s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/capsule/model.sdf
+[2.451s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/capsule/resources/capsule.glb
+[2.470s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/earth/model.config
+[2.486s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/earth/model.sdf
+[2.509s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/earth/resources/earth.glb
+[2.527s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/enceladus_surface/model.config
+[2.548s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/enceladus_surface/model.sdf
+[2.565s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/enceladus_surface/resources/glaci.jpg
+[2.586s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/enceladus_surface/resources/glaci.mtl
+[2.603s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/enceladus_surface/resources/glaci.obj
+[2.626s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/hokuyo/meshes/hokuyo_utm30lx.dae
+[2.645s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/hokuyo/meshes/lidar_2d_v2.png
+[2.662s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/hokuyo/model.config
+[2.680s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/hokuyo/model.sdf
+[2.703s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/iss/model.config
+[2.720s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/iss/model.sdf
+[2.740s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/iss/resources/iss.glb
+[2.759s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/lunar_surface/dem/moon.tif
+[2.782s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/lunar_surface/materials/textures/moon_diffuse.png
+[2.801s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/lunar_surface/materials/textures/moon_normal.png
+[2.826s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/lunar_surface/materials/textures/white_alpha.png
+[2.842s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/lunar_surface/model.config
+[2.862s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/lunar_surface/model.sdf
+[2.885s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/martian_surface/model.config
+[2.902s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/martian_surface/model.sdf
+[2.923s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/martian_surface/resources/martian_surface.glb
+[2.941s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/moon_base/model.config
+[2.962s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/moon_base/model.sdf
+[2.980s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/moon_base/resources/dome.dae
+[3.003s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/moon_base/resources/moon_base.glb
+[3.023s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_BottomBlades_v16.glb
+[3.040s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_Leg01_v16.glb
+[3.063s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_Leg02_v16.glb
+[3.082s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_Leg03_v16.glb
+[3.099s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_Leg04_v16.glb
+[3.121s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_MainBody_v16.glb
+[3.139s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/meshes/MHS_TopBlades_v16.glb
+[3.163s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/model.config
+[3.181s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_ingenuity/model.sdf
+[3.199s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/AbradingBitInTurretAtZeroFeed.bin
+[3.219s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/AbradingBitInTurretAtZeroFeed.gltf
+[3.242s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_1.bin
+[3.260s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_1.gltf
+[3.278s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_2.bin
+[3.301s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_2.gltf
+[3.320s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_3.bin
+[3.337s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_3.gltf
+[3.355s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_4.bin
+[3.377s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_4.gltf
+[3.398s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_5.bin
+[3.419s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Arm_LINK_5.gltf
+[3.440s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/CHASSIS.bin
+[3.458s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/CHASSIS.gltf
+[3.477s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/CenterDifferential.bin
+[3.497s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/CenterDifferential.gltf
+[3.520s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/ContextImager_Cap.bin
+[3.538s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/ContextImager_Cap.gltf
+[3.561s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/CoringBitInTurretAtZeroFeed.bin
+[3.577s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/CoringBitInTurretAtZeroFeed.gltf
+[3.595s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/DrillCorrerAssy.bin
+[3.612s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/DrillCorrerAssy.gltf
+[3.635s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/HGA_AZ.bin
+[3.653s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/HGA_AZ.gltf
+[3.667s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/HGA_EL.bin
+[3.687s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/HGA_EL.gltf
+[3.708s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/LaunchBitInTurretAtZeroFeed.bin
+[3.725s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/LaunchBitInTurretAtZeroFeed.gltf
+[3.748s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Left_Bogie.bin
+[3.768s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Left_Bogie.gltf
+[3.788s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Left_Rocker.bin
+[3.808s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Left_Rocker.gltf
+[3.825s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/MHS_DebrisShield.bin
+[3.846s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/MHS_DebrisShield.gltf
+[3.862s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/RSM.bin
+[3.885s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/RSM.gltf
+[3.902s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/RSM_Head.bin
+[3.924s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/RSM_Head.gltf
+[3.946s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/RegolithBitInTurretAtZeroFeed.bin
+[3.968s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/RegolithBitInTurretAtZeroFeed.gltf
+[3.991s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Right_Bogie.bin
+[4.009s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Right_Bogie.gltf
+[4.027s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Right_Rocker.bin
+[4.043s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Right_Rocker.gltf
+[4.061s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/StabilizerFarInTurret.bin
+[4.084s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/StabilizerFarInTurret.gltf
+[4.105s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/StabilizerNearInTurret.bin
+[4.126s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/StabilizerNearInTurret.gltf
+[4.143s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_LeftFront.bin
+[4.164s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_LeftFront.gltf
+[4.183s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_LeftRear.bin
+[4.205s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_LeftRear.gltf
+[4.224s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_RightFront.bin
+[4.242s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_RightFront.gltf
+[4.259s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_RightRear.bin
+[4.280s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Steer_RightRear.gltf
+[4.298s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Textures/M2020_Rover_Texture.jpg
+[4.321s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Textures/M2020_Rover_Texture_1k.jpg
+[4.345s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Textures/M2020_Rover_Texture_2k.jpg
+[4.363s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Textures/M2020_Rover_Texture_4k.jpg
+[4.387s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Textures/M2020_Rover_Texture_8k.jpg
+[4.404s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Textures/README.md
+[4.424s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Turret.bin
+[4.441s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Turret.gltf
+[4.465s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/WATSON_Camera_Cap.bin
+[4.482s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/WATSON_Camera_Cap.gltf
+[4.504s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_LeftFront.bin
+[4.521s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_LeftFront.gltf
+[4.543s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_LeftMiddle.bin
+[4.559s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_LeftMiddle.gltf
+[4.580s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_LeftRear.bin
+[4.603s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_LeftRear.gltf
+[4.626s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_RightFront.bin
+[4.643s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_RightFront.gltf
+[4.661s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_RightMiddle.bin
+[4.680s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_RightMiddle.gltf
+[4.702s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_RightRear.bin
+[4.722s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/meshes/Wheel_RightRear.gltf
+[4.740s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/model.config
+[4.762s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/nasa_perseverance/model.sdf
+[4.786s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/materials/programs/GerstnerWaves_fs.metal
+[4.805s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/materials/programs/GerstnerWaves_fs_330.glsl
+[4.828s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/materials/programs/GerstnerWaves_vs.metal
+[4.846s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/materials/programs/GerstnerWaves_vs_330.glsl
+[4.864s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/materials/textures/skybox_lowres.dds
+[4.883s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/materials/textures/wave_normals.dds
+[4.906s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/meshes/waterlow.dae
+[4.923s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/model.config
+[4.946s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/ocean_surface/model.sdf
+[4.967s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/saturn/model.config
+[4.988s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/saturn/model.sdf
+[5.007s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/saturn/resources/saturn.glb
+[5.028s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/solar_panel/model.config
+[5.047s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/solar_panel/model.sdf
+[5.068s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/solar_panel/resources/solar_panel.glb
+[5.091s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/submarine/model.config
+[5.109s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/submarine/model.sdf
+[5.131s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/submarine/resources/submarine.glb
+[5.150s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/truss/model.config
+[5.163s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/models/truss/model.sdf
+[5.186s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/worlds/enceladus.sdf
+[5.204s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/worlds/mars.sdf
+[5.226s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/worlds/moon.sdf
+[5.248s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/worlds/orbit.sdf
+[5.267s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/ament_index/resource_index/package_run_dependencies/spaceros_gz_demos
+[5.284s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/ament_index/resource_index/parent_prefix_path/spaceros_gz_demos
+[5.308s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/environment/ament_prefix_path.sh
+[5.325s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/environment/ament_prefix_path.dsv
+[5.346s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/environment/path.sh
+[5.365s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/environment/path.dsv
+[5.387s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/local_setup.bash
+[5.404s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/local_setup.sh
+[5.424s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/local_setup.zsh
+[5.447s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/local_setup.dsv
+[5.467s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.dsv
+[5.484s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/ament_index/resource_index/packages/spaceros_gz_demos
+[5.508s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/cmake/spaceros_gz_demosConfig.cmake
+[5.529s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/cmake/spaceros_gz_demosConfig-version.cmake
+[5.549s] -- Symlinking: /home/srge/spaceros_gz_demos/install/spaceros_gz_demos/share/spaceros_gz_demos/package.xml
+[5.576s] Invoked command in '/home/srge/spaceros_gz_demos/build/spaceros_gz_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srge/spaceros_gz_demos/install/multi_robot_nav:/opt/ros/humble /usr/bin/cmake --install /home/srge/spaceros_gz_demos/build/spaceros_gz_demos

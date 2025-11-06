@@ -1,0 +1,17 @@
+[1.288s] Invoking command in '/home/srge/spaceros_gz_demos/build/multi_robot_nav': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srge/spaceros_gz_demos/build/multi_robot_nav/build --no-deps symlink_data
+[1.804s] running develop
+[2.153s] running egg_info
+[2.154s] writing multi_robot_nav.egg-info/PKG-INFO
+[2.155s] writing dependency_links to multi_robot_nav.egg-info/dependency_links.txt
+[2.156s] writing entry points to multi_robot_nav.egg-info/entry_points.txt
+[2.157s] writing requirements to multi_robot_nav.egg-info/requires.txt
+[2.157s] writing top-level names to multi_robot_nav.egg-info/top_level.txt
+[2.160s] reading manifest file 'multi_robot_nav.egg-info/SOURCES.txt'
+[2.161s] writing manifest file 'multi_robot_nav.egg-info/SOURCES.txt'
+[2.163s] running build_ext
+[2.163s] Creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi-robot-nav.egg-link (link to .)
+[2.164s] Installing move_to_goal script to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/multi_robot_nav
+[2.164s] 
+[2.164s] Installed /home/srge/spaceros_gz_demos/build/multi_robot_nav
+[2.165s] running symlink_data
+[2.226s] Invoked command in '/home/srge/spaceros_gz_demos/build/multi_robot_nav' returned '0': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srge/spaceros_gz_demos/build/multi_robot_nav/build --no-deps symlink_data

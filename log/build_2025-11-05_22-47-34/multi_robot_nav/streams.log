@@ -1,0 +1,19 @@
+[1.238s] Invoking command in '/home/srge/spaceros_gz_demos/build/multi_robot_nav': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srge/spaceros_gz_demos/build/multi_robot_nav/build --no-deps symlink_data --force
+[1.738s] running develop
+[2.061s] running egg_info
+[2.063s] writing multi_robot_nav.egg-info/PKG-INFO
+[2.064s] writing dependency_links to multi_robot_nav.egg-info/dependency_links.txt
+[2.064s] writing entry points to multi_robot_nav.egg-info/entry_points.txt
+[2.064s] writing requirements to multi_robot_nav.egg-info/requires.txt
+[2.065s] writing top-level names to multi_robot_nav.egg-info/top_level.txt
+[2.067s] reading manifest file 'multi_robot_nav.egg-info/SOURCES.txt'
+[2.068s] writing manifest file 'multi_robot_nav.egg-info/SOURCES.txt'
+[2.070s] running build_ext
+[2.070s] Creating /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages/multi-robot-nav.egg-link (link to .)
+[2.071s] Installing move_to_goal script to /home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/multi_robot_nav
+[2.071s] 
+[2.071s] Installed /home/srge/spaceros_gz_demos/build/multi_robot_nav
+[2.071s] running symlink_data
+[2.072s] symbolically linking /home/srge/spaceros_gz_demos/build/multi_robot_nav/resource/multi_robot_nav -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/ament_index/resource_index/packages
+[2.072s] symbolically linking /home/srge/spaceros_gz_demos/build/multi_robot_nav/package.xml -> /home/srge/spaceros_gz_demos/install/multi_robot_nav/share/multi_robot_nav
+[2.137s] Invoked command in '/home/srge/spaceros_gz_demos/build/multi_robot_nav' returned '0': PYTHONPATH=/home/srge/spaceros_gz_demos/build/multi_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srge/spaceros_gz_demos/install/multi_robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srge/spaceros_gz_demos/build/multi_robot_nav/build --no-deps symlink_data --force
